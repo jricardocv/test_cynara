@@ -1,0 +1,46 @@
+.looks{
+    width:2cm;
+    height:3.2cm;
+    background-color: transparent;
+
+}
+.Option{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+input[type='radio']{
+    background-color: transparent;
+    padding: 0.9em;
+    margin: 8% 7%;
+    border: 0;
+    width: 1.2em;
+    accent-color: rgb(0, 0, 0);
+    cursor: pointer;
+
+}
+
+@media (min-height: 801px) and (min-width: 801px) {
+
+    .looks{
+        width:7cm;
+        height:11.2cm;
+        background-color: transparent;
+    
+    }
+
+    input[type='radio']{
+        background-color: transparent;
+        margin: 8% 7%;
+        border: 0;
+        width: 30px;
+        height: 30px;
+        accent-color: rgb(0, 0, 0);
+        cursor: pointer;
+    
+    }
+    
+}

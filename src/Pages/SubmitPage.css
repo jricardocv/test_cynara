@@ -1,0 +1,53 @@
+.SubmitPage {
+    text-align: center;
+    background-color:#e5d3bf;
+    font-family: 'Unna';
+  }
+
+  .imagens{
+    height: 6.4cm;
+    width: 4cm;
+    margin: auto;
+  }
+  .listaImagens{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 20px 0;
+    margin: auto;
+
+  }
+  h1{
+    font-size: 3vh;
+  }
+
+  @media (min-width: 8cm){
+    .SubmitPage {
+      text-align: center;
+      background-color:#e5d3bf;
+      padding: 50px 0 0 0;
+      font-family: 'Unna';
+    }
+    .imagens{
+      height: 568px;
+      width: 361px;
+      margin: auto;
+    }
+    .listaImagens{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(5, 1fr);
+      grid-column-gap: 0px;
+      grid-row-gap: 0px;
+      align-items: center;
+      justify-content: center;
+      padding: 0 0 0 0;
+      margin: auto;
+  
+    }
+    
+  }

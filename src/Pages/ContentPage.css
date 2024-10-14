@@ -1,0 +1,292 @@
+.Content {
+    text-align: center;
+    padding: 0 0 30px 0;
+    font-family: 'Unna';
+  }
+.Content-body{
+  margin-top: 165px;
+}
+  button{
+    margin: 30px auto 0 auto;
+
+  }
+  .User{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5%;
+    font-style: italic;
+    font-family: 'Unna';
+    gap: 8px;
+    font-size: 30px;
+  }
+
+  .User p{
+    font-size: 14px;
+
+  }
+  .masterheader{
+    position: fixed;
+    top: -10px;
+    width: 100%;
+    height: 165px;
+    background-color: transparent;
+
+  }
+  .header{
+    background-color: white;
+    background: linear-gradient(90deg, rgba(208,212,211,1) 10%, rgba(255,255,255,1) 50%); 
+    height: 140px;
+    font-family: "Unna";
+    font-style: italic;
+    color:rgb(225,212,191);
+
+    padding: 0;
+    margin-top: -1%;
+  }
+  .subheader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    text-align: center;
+  }
+  .logo{
+    position: absolute;
+    width: 35%;
+    height: 140px;
+    left: 0;
+  }
+
+  p.title-estilo{
+    position: absolute;
+    font-size: 80px;
+    top:-40%;
+    left: 43%;
+    font-weight: 600;
+  }
+  p.title-pessoal{
+    position: absolute;
+    font-size: 80px;
+    top: -8%;
+    left: 34%;
+    font-weight: 600;
+  }
+
+  .subtitle{
+    color:rgb(135,133,133);
+    position: relative;
+    font-size: 80%;
+    top: 5%;
+    left: 10%;
+
+  }
+  .desc{
+    font-size: 12px;
+    width: 100%;
+    height: 20px;
+    background-color: rgb(116,107,107);
+    color:rgb(205,195,195);
+    text-align: center;
+    margin: auto;
+    padding-top: 5px;
+    font-family: 'Unna';
+    font-style: italic;
+  }
+  .nome{
+    position: relative;
+    height:25px;
+    width: 40%;
+    font-size: 12px;;
+    top: 0;
+    text-align: center;
+    margin: auto;
+    padding-top: 5px;
+    font-family: 'Unna';
+    color: rgb(116,107,107);
+    font-style: italic;
+  }
+  .links{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10%;
+    margin: 0;
+    margin-bottom: -10%;
+  }
+  .insta{
+    width: 30px;
+    height: 30px;
+  }
+  .link-cantinhodena{
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+  }
+
+  .input-style{
+    position: relative;
+  }
+
+  input[type='text']{
+    height: 17px;
+    width: 50vw;
+    border-radius: 1px;
+    color: black;
+    font-size: inherit;
+    font-family: inherit;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid transparent;
+    border-bottom-color: rgb(135,133,133);
+}
+input[type='text']:focus {
+  outline: none;
+}
+span {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 100%;
+  height: 1px;
+  opacity: 0;
+  background-color: rgb(135,133,133);
+  transform-origin: center;
+  transform: translate(-50%, 0) scaleX(0);
+  transition: all 0.5s ease;
+}
+input[type='text']:focus ~ span {
+  transform: translate(-50%, 0) scaleX(1);
+  opacity: 1;
+}
+  @media (min-height: 801px) and (min-width: 801px){
+    .Content {
+      text-align: center;
+      background-color:rgb(229, 211, 191);
+      font-family: 'Unna';
+    }
+    .Content-body{
+      padding-top: 150px;
+    }
+
+    .masterheader{
+      position: fixed;
+      top: 0;
+      width: 100%;
+      height: 350px;
+  
+    }
+    .header{
+      background-color: white;
+      background: linear-gradient(90deg, rgba(208,212,211,1) 10%, rgba(255,255,255,1) 50%); 
+      height: 300px;
+      font-family: "Unna";
+      font-style: italic;
+      color:rgb(225,212,191);
+      padding: 0;
+      margin-top: -1%;
+
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    .subheader{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      height: 50px;
+      text-align: center;
+    }
+    .logo{
+      position: absolute;
+      width: 300px;
+      height: 300px;
+      left: 0;
+    }
+  
+    p.title-estilo{
+      position: relative;
+      font-size: 170px;
+      font-weight: 600;
+      left: 20%;
+      top: 5%;
+    }
+    p.title-pessoal{
+      position: relative;
+      font-size: 170px;
+      font-weight: 600;
+      left: 22%;
+      top: 5%;
+    }
+  
+    .subtitle{
+      color:rgb(135,133,133);
+      position: relative;
+      font-size: 300%;
+      left: 18%;
+  
+    }
+    .desc{
+      font-size: 30px;
+      width: 100%;
+      height: 45px;
+      background-color: rgb(116,107,107);
+      color:rgb(205,195,195);
+      text-align: center;
+      margin: auto;
+      font-family: 'Unna';
+      font-style: italic;
+    }
+    .nome{
+      position: relative;
+      height: 45px;
+      width: 40%;
+      font-size: 30px;;
+      text-align: center;
+      margin: auto;
+      font-family: 'Unna';
+      color: rgb(116,107,107);
+      font-style: italic;
+    }
+
+    .Content-body{
+      margin-top: 190px;
+    }
+
+    .insta{
+      width: 30px;
+      height: 30px;
+      padding-bottom: 20px;
+    }
+    .link-cantinhodena{
+      text-decoration: none;
+      color: black;
+      font-style: italic;
+      padding-bottom: 20px;
+    }
+
+    input[type='text']{
+      height: 40px;
+      width: 50vw;
+
+  }
+
+  .User{
+    padding-top: 30px;
+  }
+
+  .User p{
+    font-size: 30px;
+
+  }
+
+  .links{
+    padding-top: 30px;
+  }
+
+    
+  }
