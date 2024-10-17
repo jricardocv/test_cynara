@@ -50,7 +50,7 @@ function SubmitPage() {
     images.push(require('./images/grupo '+i+'/'+photos[i-1]+'.png'))
   }
 
-  const listImages = images.map(im =><img className="imagens" src={im}/>);
+  const listImages = images.map(im =><img className="imagens" src={im} alt="Selected look"/>);
 
   return (
     <div className="SubmitPage">

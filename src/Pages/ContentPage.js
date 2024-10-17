@@ -1,7 +1,7 @@
 import './ContentPage.css';
 import Selection from '../Components/Selection';
 import { useNavigate } from "react-router-dom";
-import { Children, useState } from 'react';
+import { useState } from 'react';
 import logo from './images/logo.png';
 import insta from './images/instagram.png';
 
@@ -34,7 +34,7 @@ function ContentPage() {
   }
 
   for(let g = 1; g < grupos.length + 1; g++){
-    if(g==1 || g==2 || g==3 || g==10){
+    if(g===1 || g===2 || g===3 || g===10){
       cond = 5;
     }else{
       cond = 6
@@ -71,7 +71,7 @@ function ContentPage() {
       <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
       <div  className='masterheader'>
         <div className='header'>
-          <img className='logo' src={logo}/>
+          <img className='logo' src={logo} alt="Logo"/>
           <p className='subtitle'>DESCUBRA SEU</p>
           <p className="title-estilo">Estilo</p>
           <p className='title-pessoal'>Pessoal</p>
@@ -92,7 +92,7 @@ function ContentPage() {
           </div>
           <button type="submit" onClick={handleClick}>CONCLUIR</button>
           <div className='links'>
-            <img className="insta" src={insta}/>
+            <img className="insta" src={insta} alt="instagram-logo"/>
             <a className='link-cantinhodena' href="https://www.instagram.com/cantinhodena/">@cantinhodena</a>
           </div>
       </div>

@@ -4,13 +4,13 @@ import Option from './Option';
 function Selection({grupo,image,num_buttons,id,handleChange}) {
     let bs = [];
 
-    if(num_buttons == 4){
+    if(num_buttons === 4){
         bs = [1,2,3,4]
     }
     else{
         bs = [1,2,3,4,5]
     }
-    const listButtons = bs.map(b =><input type='radio' value={b} name={'question'+id}/>);
+    // const listButtons = bs.map(b =><input type='radio' value={b} name={'question'+id}/>);
     const listImages = bs.map((b,index) =><Option id={id} image={image[index]} value={b}/>);
 
 
