@@ -212,26 +212,26 @@ input[type='text']:focus ~ span {
       position: relative;
       font-size: 136px;
       font-weight: 600;
-      left: 20%;
+      left: 18%;
       top: 5%;
     }
     p.title-pessoal{
       position: relative;
       font-size: 136px;
       font-weight: 600;
-      left: 22%;
+      left: 20%;
       top: 5%;
     }
   
     .subtitle{
       color:rgb(135,133,133);
       position: relative;
-      font-size: 300%;
+      font-size: 240%;
       left: 18%;
   
     }
     .desc{
-      font-size: 30px;
+      font-size: 24px;
       width: 100%;
       height: 35px;
       background-color: rgb(116,107,107);
@@ -245,7 +245,7 @@ input[type='text']:focus ~ span {
       position: relative;
       height: 35px;
       width: 40%;
-      font-size: 30px;;
+      font-size: 24px;;
       text-align: center;
       margin: auto;
       font-family: 'Unna';
