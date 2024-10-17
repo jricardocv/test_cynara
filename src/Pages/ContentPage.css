@@ -176,13 +176,13 @@ input[type='text']:focus ~ span {
       position: fixed;
       top: 0;
       width: 100%;
-      height: 350px;
+      height: 280px;
   
     }
     .header{
       background-color: white;
       background: linear-gradient(90deg, rgba(208,212,211,1) 10%, rgba(255,255,255,1) 50%); 
-      height: 300px;
+      height: 240px;
       font-family: "Unna";
       font-style: italic;
       color:rgb(225,212,191);
@@ -198,26 +198,26 @@ input[type='text']:focus ~ span {
       flex-direction: row;
       align-items: center;
       justify-content: center;
-      height: 50px;
+      height: 40px;
       text-align: center;
     }
     .logo{
       position: absolute;
-      width: 300px;
-      height: 300px;
+      width: 240px;
+      height: 240px;
       left: 0;
     }
   
     p.title-estilo{
       position: relative;
-      font-size: 170px;
+      font-size: 136px;
       font-weight: 600;
       left: 20%;
       top: 5%;
     }
     p.title-pessoal{
       position: relative;
-      font-size: 170px;
+      font-size: 136px;
       font-weight: 600;
       left: 22%;
       top: 5%;
@@ -233,7 +233,7 @@ input[type='text']:focus ~ span {
     .desc{
       font-size: 30px;
       width: 100%;
-      height: 45px;
+      height: 35px;
       background-color: rgb(116,107,107);
       color:rgb(205,195,195);
       text-align: center;
@@ -243,7 +243,7 @@ input[type='text']:focus ~ span {
     }
     .nome{
       position: relative;
-      height: 45px;
+      height: 35px;
       width: 40%;
       font-size: 30px;;
       text-align: center;
