@@ -26,8 +26,8 @@ input[type='radio']{
 @media (min-height: 8cm) and (min-width: 8cm) {
 
     .looks{
-        width:7cm;
-        height:11.2cm;
+        width:6.5cm;
+        height:10.4cm;
         background-color: transparent;
     
     }
@@ -36,8 +36,8 @@ input[type='radio']{
         background-color: transparent;
         margin: 8% 7%;
         border: 0;
-        width: 30px;
-        height: 30px;
+        width: 24px;
+        height: 24px;
         accent-color: rgb(0, 0, 0);
         cursor: pointer;
     
