@@ -85,7 +85,7 @@ img{
     margin: 0;
 }
 
-@media (min-height: 1002px) and (min-width: 1002px) {
+@media (min-height: 8cm) and (min-width: 8cm) {
     .Selection{
         padding: 0 0 0 0;
         background-color: rgba(255, 0, 0, 0.2);

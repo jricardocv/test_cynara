@@ -162,7 +162,7 @@ input[type='text']:focus ~ span {
   transform: translate(-50%, 0) scaleX(1);
   opacity: 1;
 }
-  @media (min-height: 1002px) and (min-width: 1002x){
+  @media (min-height: 8cm) and (min-width: 8cm){
     .Content {
       text-align: center;
       background-color:rgb(229, 211, 191);
