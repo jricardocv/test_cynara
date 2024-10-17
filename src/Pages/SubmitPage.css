@@ -25,7 +25,7 @@
     font-size: 3vh;
   }
 
-  @media (min-width: 640px){
+  @media (min-width: 1001px){
     .SubmitPage {
       text-align: center;
       background-color:#e5d3bf;
