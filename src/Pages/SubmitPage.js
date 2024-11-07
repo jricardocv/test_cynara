@@ -54,7 +54,7 @@ function SubmitPage() {
 
   return (
     <div className="SubmitPage">
-      <meta name="viewport" content="width=1150px;user-scalable=0;initial-scale=1.0"/>
+      <meta name="viewport" content="width=device-width;user-scalable=0;initial-scale=1.0"/>
       <div className="content" ref={pdfRef}>
         <h1>Sua lista personalizada, {name}</h1>
         <div className="listaImagens">
