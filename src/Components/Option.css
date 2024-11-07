@@ -23,7 +23,7 @@ input[type='radio']{
 
 }
 
-@media (min-height: 8cm) and (min-width: 8cm) {
+@media (min-width: 8cm) {
 
     .looks{
         width:6.5cm;
