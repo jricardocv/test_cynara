@@ -31,7 +31,7 @@
   .masterheader{
     position: fixed;
     top: -10px;
-    width: 100%;
+    width: 60%;
     height: 165px;
     background-color: transparent;
 
@@ -87,7 +87,7 @@
   }
   .desc{
     font-size: 12px;
-    width: 100%;
+    width: 60%;
     height: 20px;
     background-color: rgb(116,107,107);
     color:rgb(205,195,195);
@@ -100,7 +100,7 @@
   .nome{
     position: relative;
     height:25px;
-    width: 40%;
+    width: 20%;
     font-size: 12px;;
     top: 0;
     text-align: center;
