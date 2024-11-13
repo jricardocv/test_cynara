@@ -16,7 +16,6 @@ function Selection({grupo,image,num_buttons,id,handleChange}) {
 
     return (
         <div className="Selection">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
             <p className='cartela'>CARTELA {grupo+1}</p>
             <div className="options" onChange={event => handleChange(event, id)}>
                 {listImages}
