@@ -16,6 +16,11 @@ function SubmitPage() {
 
   const downloadPDF = () =>{
 
+    var templateParams = {
+      client_name: name,
+      message: photos
+    };
+
     emailjs.send('service_3ui51jo','template_0aq2oe3', templateParams, 'FfNYVfI5tUgghWGmy').then(
       (response) => {
         console.log('SUCCESS!', response.status, response.text);
@@ -24,7 +29,7 @@ function SubmitPage() {
         console.log('FAILED...', error);
       },
     );
-    
+
     const input = pdfRef.current;
     html2canvas(input).then((canvas)=>{
       const imgData = canvas.toDataURL('image/png');
@@ -39,10 +44,7 @@ function SubmitPage() {
       pdf.addImage(imgData, 'PNG', imgX, imgY, imgWidth*radio, imgHeight*radio);
       pdf.save('Lista Pessoal.pdf');
 
-      var templateParams = {
-        client_name: name,
-        message: photos
-      };
+
 
       
     });
