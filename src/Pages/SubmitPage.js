@@ -15,6 +15,16 @@ function SubmitPage() {
   const name = location.state.name
 
   const downloadPDF = () =>{
+
+    emailjs.send('service_3ui51jo','template_0aq2oe3', templateParams, 'FfNYVfI5tUgghWGmy').then(
+      (response) => {
+        console.log('SUCCESS!', response.status, response.text);
+      },
+      (error) => {
+        console.log('FAILED...', error);
+      },
+    );
+    
     const input = pdfRef.current;
     html2canvas(input).then((canvas)=>{
       const imgData = canvas.toDataURL('image/png');
@@ -34,14 +44,7 @@ function SubmitPage() {
         message: photos
       };
 
-      emailjs.send('service_3ui51jo','template_0aq2oe3', templateParams, 'FfNYVfI5tUgghWGmy').then(
-        (response) => {
-          console.log('SUCCESS!', response.status, response.text);
-        },
-        (error) => {
-          console.log('FAILED...', error);
-        },
-      );
+      
     });
   };
 
