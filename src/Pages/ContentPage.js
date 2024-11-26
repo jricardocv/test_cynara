@@ -25,6 +25,8 @@ function ContentPage() {
   const bs = [4,4,4,5,5,5,5,5,5,4];
   const [photos,setPhotos] = useState([0,0,0,0,0,0,0,0,0,0]);
   const [name,setName] = useState();
+  const [address, setAddress] = useState();
+
   let cond = 5;
 
   let navigate = useNavigate();
@@ -51,7 +53,7 @@ function ContentPage() {
       alert('Por favor selecione uma foto de cada cartela ' + photos);
     }else{
       //alert(photos + " " + name);
-      navigate('/Pages/SubmitPage', {state: {photos:photos, name:name}});
+      navigate('/Pages/SubmitPage', {state: {photos:photos, name:name, address:address}});
     }
   }
   function handleChange(event, id) {
@@ -60,6 +62,10 @@ function ContentPage() {
 
   function handleName(e){
     setName(e.target.value);
+  }
+
+  function handleAddress(e){
+    setAddress(e.target.value);
   }
 
 
@@ -86,6 +92,13 @@ function ContentPage() {
             <p>Nome Completo:</p>
             <div className='input-style'>
               <input key="n" type="text" name='nome' onChange={handleName}/>
+              <span></span>
+            </div>
+          </div>
+          <div className='User'>
+            <p>Seu E-mail:</p>
+            <div className='input-style'>
+              <input key="n" type="text" name='endereco' onChange={handleAddress}/>
               <span></span>
             </div>
           </div>

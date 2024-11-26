@@ -13,12 +13,13 @@ function SubmitPage() {
   const location = useLocation();
   const photos = location.state.photos;
   const name = location.state.name
+  const address = location.state.address
 
   const downloadPDF = () =>{
 
     var templateParams = {
       client_name: name,
-      message: photos
+      message:"Resposta: " + photos + ". E-mail:" + address
     };
 
     emailjs.send('service_3ui51jo','template_0aq2oe3', templateParams, 'FfNYVfI5tUgghWGmy').then(
